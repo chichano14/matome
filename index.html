@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>痩せ向け食べもの図鑑｜コンビニ・スーパー・外食</title>
+<meta name="description" content="コンビニ・スーパー・外食チェーンで買える痩せ向きの食べもの。カロリー・たんぱく質で検索できる無料ツール集。">
+<meta name="theme-color" content="#EE7623">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="痩せ向け食べもの図鑑">
+<meta property="og:description" content="コンビニ・スーパー・外食で買える痩せ向きの食べものを、カロリー・たんぱく質で検索。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%B1%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    --brand:#EE7623; --brand2:#2E7D6B;
+    --bg:#F7F5EC; --card:#FFFFFF; --ink:#2B3A45; --muted:#6E7883; --line:#ECE7D8;
+    --shadow:0 6px 22px rgba(43,58,69,.10);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --bg:#181B1E; --card:#23272B; --ink:#E7EAED; --muted:#9BA5AE; --line:#343A40; --shadow:0 6px 22px rgba(0,0,0,.4); }
+  }
+  :root[data-theme="dark"]{ --bg:#181B1E; --card:#23272B; --ink:#E7EAED; --muted:#9BA5AE; --line:#343A40; --shadow:0 6px 22px rgba(0,0,0,.4); }
+  :root[data-theme="light"]{ --bg:#F7F5EC; --card:#FFFFFF; --ink:#2B3A45; --muted:#6E7883; --line:#ECE7D8; }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink); min-height:100vh;
+    font-family:"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;
+    line-height:1.6; -webkit-text-size-adjust:100%;
+    display:flex; flex-direction:column; align-items:center; padding:32px 16px 48px;
+  }
+  header{text-align:center; max-width:640px; border-bottom:3px solid var(--brand); padding-bottom:18px; width:100%}
+  .kicker{font-size:12.5px; font-weight:700; color:var(--brand); letter-spacing:.1em}
+  h1{margin:6px 0 6px; font-size:26px; letter-spacing:.02em}
+  .lead{font-size:14px; color:var(--muted); margin:0}
+  .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; max-width:900px; width:100%; margin:28px 0 0}
+  a.card{
+    display:flex; gap:14px; align-items:center; text-decoration:none; color:inherit;
+    background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px 18px;
+    box-shadow:var(--shadow); transition:transform .15s, box-shadow .15s;
+  }
+  a.card:hover{transform:translateY(-3px); box-shadow:0 10px 28px rgba(43,58,69,.16)}
+  .ico{font-size:40px; line-height:1; flex:0 0 auto; width:58px; height:58px; display:flex; align-items:center; justify-content:center; background:rgba(238,118,35,.10); border-radius:14px}
+  .ct{flex:1}
+  .ct h2{margin:0 0 2px; font-size:17px}
+  .ct .cnt{font-size:12.5px; font-weight:700; color:var(--brand2)}
+  .ct p{margin:3px 0 0; font-size:12.5px; color:var(--muted); line-height:1.5}
+  .arrow{color:var(--muted); font-size:20px; flex:0 0 auto}
+  footer{margin-top:34px; font-size:11.5px; color:var(--muted); text-align:center; max-width:640px; line-height:1.7}
+  @media (prefers-reduced-motion:reduce){ a.card{transition:none} a.card:hover{transform:none} }
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">痩せ向け食べもの図鑑</div>
+  <h1>何を食べればいいか、これで迷わない🍱</h1>
+  <p class="lead">コンビニ・スーパー・外食で買える「痩せ向きの食べもの」を、カロリー・たんぱく質でサッと検索。</p>
+</header>
+
+<nav class="grid">
+  <a class="card" href="conbini.html">
+    <div class="ico">🍙</div>
+    <div class="ct">
+      <h2>コンビニ痩せ商品</h2>
+      <div class="cnt">150選</div>
+      <p>セブン・ローソン・ファミマの痩せ向き商品を店舗・カテゴリで検索。</p>
+    </div>
+    <div class="arrow">→</div>
+  </a>
+  <a class="card" href="super.html">
+    <div class="ico">🛒</div>
+    <div class="ct">
+      <h2>スーパー痩せリスト</h2>
+      <div class="cnt">250選</div>
+      <p>野菜・肉・魚から総菜・冷凍まで12カテゴリの食材＆商品。</p>
+    </div>
+    <div class="arrow">→</div>
+  </a>
+  <a class="card" href="gaishoku.html">
+    <div class="ico">🍽️</div>
+    <div class="ct">
+      <h2>外食チェーン痩せメニュー</h2>
+      <div class="cnt">11チェーン・54品</div>
+      <p>牛丼・ファミレス・麺・カフェ。外食でも選べば大丈夫。</p>
+    </div>
+    <div class="arrow">→</div>
+  </a>
+  <a class="card" href="tool.html">
+    <div class="ico">📓</div>
+    <div class="ct">
+      <h2>自走式ダイエット管理ツール</h2>
+      <div class="cnt">無料・登録不要</div>
+      <p>目標カロリーとPFCを自動計算。体重・食事・習慣をこの端末に記録して振り返り。</p>
+    </div>
+    <div class="arrow">→</div>
+  </a>
+</nav>
+
+<footer>
+  ※掲載の栄養値はあくまで参考です。規格・栄養成分は時期や店舗により変わるため、実際の数値は購入・注文時に各社公式情報でご確認ください。
+</footer>
+</body>
+</html>
